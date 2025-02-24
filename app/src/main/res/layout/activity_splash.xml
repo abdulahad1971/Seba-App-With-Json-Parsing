@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:maxLines="2"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+  <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="একটি সামাজিক কাজ"
+        android:maxLines="2"
+        android:fontFamily="@font/kalpurush"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/profile_image"
+        android:layout_width="80dp"
+        android:layout_gravity="center"
+        android:layout_height="80dp"
+        android:src="@drawable/al"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/main"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পরিকল্পনা ও বাস্তবায়ন"
+        android:maxLines="2"
+        android:fontFamily="@font/kalpurush"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_height="1dp"
+        android:background="@color/main"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আলমগীর হোসাইন"
+        android:maxLines="2"
+        android:fontFamily="@font/kalpurush"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(ফাউন্ডেশন ও ডেভেলপার)"
+        android:maxLines="2"
+        android:fontFamily="@font/kalpurush"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:maxLines="2"
+        android:fontFamily="@font/kalpurush"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+
+    <ProgressBar
+        android:layout_marginTop="30dp"
+        android:indeterminateTint="@color/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+</LinearLayout>

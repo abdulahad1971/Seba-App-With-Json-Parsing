@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="হোম"/>
+
+    <item
+        android:id="@+id/developer"
+        android:icon="@drawable/user"
+        android:title="ডেভেলপার সম্পর্কে"/>
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:title="শেয়ার করুন"/>
+
+    <item
+        android:id="@+id/star"
+        android:icon="@drawable/star"
+        android:title="রেটিং দিন"/>
+
+    <item
+        android:id="@+id/privacy"
+        android:icon="@drawable/privacy"
+        android:title="গোপনীয়তা নীতি"/>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="বাহির"/>
+
+
+</menu>
