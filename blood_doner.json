@@ -1,0 +1,39 @@
+{
+  "blood_doner":[
+
+    {
+      "name":"মো: সেলিম খান",
+      "age":"২৫ বছর",
+      "blood_group" :"O-V",
+      "gender" :"Male",
+      "address" :"ঘিওর উপজেলা",
+      "phone":"01619200438"  ,
+      "image":"https://manikgonjcityapp.xyz/apon.jpg"
+    },
+     {
+      "name":"মো: রিদয় আহাম্মেদ",
+      "age":"২১ বছর",
+      "blood_group" :"A+",
+      "gender" :"Male",
+      "address" :"কাশিমনগর সিংগাইর মানিকগন্জ",
+      "phone":"01305794779"  ,
+      "image":"https://manikgonjcityapp.xyz/apon.jpg"
+    },
+    {
+      "name":"মো: আবির হাসান আলিফ",
+      "age":"২0 বছর",
+      "blood_group" :"0+",
+      "gender" :"Male",
+      "address" :"শিবালয় মহাদেবপুর",
+      "phone":"01827077515"  ,
+      "image":"https://manikgonjcityapp.xyz/apon.jpg"
+    }
+
+    
+
+
+
+
+
+  ]
+}
